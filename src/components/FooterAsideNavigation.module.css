@@ -1,0 +1,22 @@
+.asideList {
+    justify-content: center;
+    align-items: center;
+}
+
+.asideComponent {
+
+    align-items: center;
+    justify-content: center;
+    color:white;
+    padding:30px 10px;
+
+    .asideImg {
+        width: 65px;
+        padding: 12px;
+    }
+
+    .asideLocatorImg {
+        width: 50px;
+        padding: 12px;
+    }
+}
