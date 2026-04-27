@@ -86,6 +86,17 @@ function FooterLinkTrees() {
                 </li>
             </ul>
         </div>
+        <div className={"footer-link-tree"}>
+            <h3>SHOP</h3>
+            <ul>
+                <li>
+                    <p>Shop DC</p>
+                </li>
+                <li>
+                    <p>Shop DC Collectibles</p>
+                </li>
+            </ul>
+        </div>
     </div>;
 }
 
