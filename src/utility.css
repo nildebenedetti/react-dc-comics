@@ -5,9 +5,15 @@
 
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .fluid {
     width: 100%;
 }
+
+
 
 .mx-auto {
     margin: 0 auto;
