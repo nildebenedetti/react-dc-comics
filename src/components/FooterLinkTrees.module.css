@@ -1,0 +1,16 @@
+.footerLinkTreesContainer {
+    background-image: url(/img/footer-bg.jpg);
+}
+
+.treeTitle {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 0;;
+}
+
+.treePar {
+    color: #959595;
+    font-size: 9px;
+    text-transform: capitalize;
+}

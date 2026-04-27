@@ -1,99 +1,99 @@
+import style from './FooterLinkTrees.module.css';
 
 function FooterLinkTrees() {
-    return <div className={"footer-linktrees-container"}>
-
+    return <div className={`fluid ${style.footerLinkTreesContainer}`}>
         <div className={"footer-link-tree"}>
-            <h3>DC COMICS</h3>
+            <h3 className={style.treeTitle}>DC COMICS</h3>
             <ul>
                 <li>
-                    <p>Characters</p>
+                    <p className={style.treePar}>Characters</p>
                 </li>
                 <li>
-                    <p>Comics</p>
+                    <p className={style.treePar}>Comics</p>
                 </li>
                 <li>
-                    <p>Movies</p>
+                    <p className={style.treePar}>Movies</p>
                 </li>
                 <li>
-                    <p>TV</p>
+                    <p className={style.treePar}>TV</p>
                 </li>
                 <li>
-                    <p>Games</p>
+                    <p className={style.treePar}>Games</p>
                 </li>
                 <li>
-                    <p>Videos</p>
+                    <p className={style.treePar}>Videos</p>
                 </li>
                 <li>
-                    <p>News</p>
+                    <p className={style.treePar}>News</p>
                 </li>
             </ul>
         </div>
         <div className={"footer-link-tree"}>
-            <h3>DC</h3>
+            <h3 className={style.treeTitle}>DC</h3>
             <ul>
                 <li>
-                    <p>Terms Of Use</p>
+                    <p className={style.treePar}>Terms Of Use</p>
                 </li>
                 <li>
-                    <p>Privacy Policy (new)</p>
+                    <p className={style.treePar}>Privacy Policy (new)</p>
                 </li>
                 <li>
-                    <p>Ad Choices</p>
+                    <p className={style.treePar}>Ad Choices</p>
                 </li>
                 <li>
-                    <p>Advertising</p>
+                    <p className={style.treePar}>Advertising</p>
                 </li>
                 <li>
-                    <p>Jobs</p>
+                    <p className={style.treePar}>Jobs</p>
                 </li>
                 <li>
-                    <p>Subscriptions</p>
+                    <p className={style.treePar}>Subscriptions</p>
                 </li>
                 <li>
-                    <p>Talent Workshops</p>
+                    <p className={style.treePar}>Talent Workshops</p>
                 </li>
                 <li>
-                    <p>CPSC Certificates</p>
+                    <p className={style.treePar}>CPSC Certificates</p>
                 </li>
                 <li>
-                    <p>Ratings</p>
+                    <p className={style.treePar}>Ratings</p>
                 </li>
                 <li>
-                    <p>Shop Help</p>
+                    <p className={style.treePar}>Shop Help</p>
                 </li>
                 <li>
-                    <p>Contact Us</p>
+                    <p className={style.treePar}>Contact Us</p>
                 </li>
             </ul>
         </div>
         <div className={"footer-link-tree"}>
-            <h3>SITES</h3>
+            <h3 className={style.treeTitle}>SITES</h3>
             <ul>
                 <li>
-                    <p>DC</p>
+                    <p className={style.treePar}>DC</p>
                 </li>
                 <li>
-                    <p>MAD Magazine</p>
+                    <p className={style.treePar}>MAD Magazine</p>
                 </li>
                 <li>
-                    <p>DC Kids</p>
+                    <p className={style.treePar}>DC Kids</p>
                 </li>
                 <li>
-                    <p>DC Universe</p>
+                    <p className={style.treePar}>DC Universe</p>
                 </li>
                 <li>
-                    <p>DC Power Visa</p>
+                    <p className={style.treePar}>DC Power Visa</p>
                 </li>
             </ul>
         </div>
         <div className={"footer-link-tree"}>
-            <h3>SHOP</h3>
+            <h3 className={style.treeTitle}>SHOP</h3>
             <ul>
                 <li>
-                    <p>Shop DC</p>
+                    <p className={style.treePar}>Shop DC</p>
                 </li>
                 <li>
-                    <p>Shop DC Collectibles</p>
+                    <p className={style.treePar}>Shop DC Collectibles</p>
                 </li>
             </ul>
         </div>
