@@ -1,9 +1,11 @@
+import style from './FooterSocialHub.module.css';
+
 function FooterSocialHub() {
     return <>
-    <div className={"social-elem-container"}>
-        <h3 className={"follow-cta"}>FOLLOW US</h3>
+    <div className={`${style.followCta} d-flex`}>
+        <h3 className={style.cta}>FOLLOW US</h3>
         <div className={"social-icons-container"}>
-            <ul>
+            <ul className={"d-flex"}>
                 <li>
                     <div className={"single-logo-container"}>
                         <img src="/img/footer-facebook.png" alt="facebook logo"></img>
