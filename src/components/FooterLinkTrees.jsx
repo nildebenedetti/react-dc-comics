@@ -30,7 +30,6 @@ function FooterLinkTrees() {
                                 <p className={style.treePar}>News</p>
                             </li>
                         </ul>
-
                         <h3 className={style.treeTitle}>SHOP</h3>
                         <ul>
                             <li>
