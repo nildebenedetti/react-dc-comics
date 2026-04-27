@@ -1,4 +1,14 @@
+
+
 .d-flex {
     display:flex;
 
+}
+
+.fluid {
+    width: 100%;
+}
+
+.mx-auto {
+    margin: 0 auto;
 }
