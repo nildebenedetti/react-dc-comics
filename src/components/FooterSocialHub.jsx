@@ -4,8 +4,8 @@ function FooterSocialHub() {
     return <>
     <div className={`${style.followCta} d-flex`}>
         <h3 className={style.cta}>FOLLOW US</h3>
-        <div className={"social-icons-container"}>
-            <ul className={"d-flex"}>
+        <div className={` d-flex`}>
+            <ul className={` ${style.socialIconsContainer} d-flex`}>
                 <li>
                     <div className={"single-logo-container"}>
                         <img src="/img/footer-facebook.png" alt="facebook logo"></img>

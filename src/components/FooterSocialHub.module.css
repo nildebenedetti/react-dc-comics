@@ -1,8 +1,13 @@
 .followCta {
     color: #0582F9;
     justify-content: space-evenly;
+    gap:10px;
 }
 
 .cta {
     padding: 10px;
+}
+
+.socialIconsContainer {
+    gap: 15px;
 }
