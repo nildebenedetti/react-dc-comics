@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+  /* Definiamo la variabile globale per il font */
+  --main-font: "Open Sans", sans-serif;
+}
+
+/* Utility class riutilizzabile */
+.font-heavy {
+  font-family: var(--main-font);
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+  font-family: var(--main-font);
+  margin: 0;
+}
