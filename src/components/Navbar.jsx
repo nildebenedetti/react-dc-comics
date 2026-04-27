@@ -1,17 +1,37 @@
 import style from './Navbar.module.css'
 
 function Navbar() {
-     return <> <ul className={`d-flex ${style.ul}`}>
-        <li>Characters</li>
-        <li>Comics</li>
-        <li>Movies</li>
-        <li>TV</li>
-        <li>Games</li>
-        <li>Collectibles</li>
-        <li>Videos</li>
-        <li>Fans</li>
-        <li>News</li>
-        <li>Shop</li>
+    return <> <ul className={`d-flex ${style.ul}`}>
+        <li className={style.option}>
+            Characters
+        </li>
+        <li className={style.option}>
+            Comics
+        </li>
+        <li className={style.option}>
+            Movies
+        </li>
+        <li className={style.option}>
+            TV
+        </li>
+        <li className={style.option}>
+            Games
+        </li>
+        <li className={style.option}>
+            Collectibles
+        </li>
+        <li className={style.option}>
+            Videos
+        </li>
+        <li className={style.option}>
+            Fans
+        </li>
+        <li className={style.option}>
+            News
+        </li>
+        <li className={style.option}>
+            Shop
+        </li>
     </ul>
     </>
 }
