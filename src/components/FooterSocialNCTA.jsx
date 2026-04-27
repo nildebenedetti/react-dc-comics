@@ -1,8 +1,9 @@
 import FooterSignUpBtn from "./FooterSignUpBtn";
 import FooterSocialHub from "./FooterSocialHub";
+import style from './FooterSocialNCTA.module.css';
 
 function FooterSocialNCTA() {
-    return <div className={"footer-social-n-cta-container"}>
+    return <div className={style.socialContainer}>
         <FooterSignUpBtn/>
         <FooterSocialHub/>
     </div>
