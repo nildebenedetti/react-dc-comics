@@ -9,3 +9,20 @@ Il font utilizzato è Open Sans
 
 **Bonus:**
 Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
+
+# Struttura 
+
+- Header
+    - Logo
+    - Navbar (website pages)
+        ( 10 * navigazione relativa)
+- Main
+    - ... coming soon
+- Footer
+    - Level 1 - Aside
+        ( 5 * icon + name )
+    - Level 2 - Link Trees
+        ( 5 * header + linktree )
+    - Level 3 - Social Connectors & CTAs
+        - Sign-up Btn
+        - Social Hub
