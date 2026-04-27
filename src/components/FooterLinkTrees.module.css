@@ -1,16 +1,38 @@
 .footerLinkTreesContainer {
     background-image: url(/img/footer-bg.jpg);
+    padding: 50px 100px;
+    height:300px;
 }
 
 .treeTitle {
     color: white;
     font-weight: 600;
-    font-size: 14px;
-    padding: 5px 0;;
+    font-size: 16px;
+    padding: 10px 0;
 }
 
 .treePar {
     color: #959595;
-    font-size: 9px;
+    font-size: 12px;
     text-transform: capitalize;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.footerColumn {
+    max-width: calc((100% - 10px) / 2);
+}
+
+
+.logoImg {
+    width: 350px;
+}
+
+.treeRow {
+    display: flex;
+    gap: 10px;
 }
