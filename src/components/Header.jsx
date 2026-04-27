@@ -1,8 +1,11 @@
-import Logo from "./components/Logo.jsx";
+import Logo from './Logo.jsx';
+import Navbar from './Navbar.jsx';
 
 function Header() {
-    return <header> <logo/>
+    return <header> 
+        <Logo/>
+        <Navbar/>
     </header> 
 }
 
-export default Header
+export default Header;
