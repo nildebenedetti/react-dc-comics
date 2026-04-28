@@ -23,6 +23,8 @@ function renderCards(objList) {
 
 function Main() {
     return <main className={`mx-auto fluid ${style.container}`}>
+            <div className="hero-banner">
+            </div>
             <div className="label-wrapper">
                 <div className="label-easy">
                     <p>CURRENT SERIES</p>

@@ -64,3 +64,11 @@ body {
 main {
   position: absolute;
 }
+
+.hero-banner {
+  width: 100%;
+  height: 400px;
+  background: url("/img/jumbotron.jpg");
+  background-repeat: no-repeat;    
+  background-position: top;
+}
