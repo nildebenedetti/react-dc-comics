@@ -23,11 +23,9 @@ function renderCards(objList) {
 
 function Main() {
     return <main className={`mx-auto fluid ${style.container}`}>
-        <div className={`d-flex ${style.row}`}>
-            <ul className={style.ulCards}>
+            <ul className={`mx-auto ${style.row}`}>
                 {renderCards(comics)}
             </ul>
-        </div>
     </main>
 }
 
