@@ -13,6 +13,14 @@ const categories = [
     'Shop'
 ];
 
+function renderCategories(categoryList) {
+    return categoryList.map((category, index) => {
+        return <li key={index} className={style.option}>{ category }</li>
+    });
+};
+
+
+
 {/* function Navbar() {
     return <> <ul className={`d-flex ${style.ul}`}>
         <li className={style.option}>
