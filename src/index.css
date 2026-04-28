@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -24,16 +24,43 @@ body {
 }
 
 .btn-easy {
-    color: white;
-    padding: 10px 40px;
-    background-color: #0582F9;
-    font-weight: 600;
-    position: absolute;
-    transform: translate(50%, 0);
+  color: white;
+  padding: 10px 40px;
+  background-color: #0582F9;
+  font-weight: 600;
+  position: absolute;
+  transform: translate(50%, 0);
 }
 
 .btn-wrapper {
   display: flex;
   justify-content: center;
   padding: 50px 0;
+}
+
+.label-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+.label-easy {
+
+  color: white;
+  padding: 10px 40px;
+  background-color: #0582F9;
+  font-weight: 600;
+  position: relative;
+  transform: translate(50%, 0);
+  top: -55px;
+  left: -512px;
+
+}
+
+.label-easy p{
+  font-size: 22px;;
+}
+
+main {
+  position: absolute;
 }
