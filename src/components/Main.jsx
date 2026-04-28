@@ -1,3 +1,4 @@
+import { comics } from '../data/comics.js';
 function Main() {
     return <main className={"mx-auto d-flex"}>
         <h1>Sono il main</h1>
