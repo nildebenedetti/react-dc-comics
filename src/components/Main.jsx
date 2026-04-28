@@ -1,4 +1,5 @@
-import { comics } from '../data/comics.js';
+import comics from '../data/comics.js';
+import style from './Main.module.css'
 
 {/* Aggiungo la funzione per fare render da dati oggetto */}
 
@@ -19,8 +20,12 @@ function renderCards(objList) {
 
 
 function Main() {
-    return <main className={"mx-auto d-flex"}>
-        <h1>Sono il main</h1>
+    return <main className={"mx-auto"}>
+        <div className={`d-flex ${style.row}`}>
+            <ul className={style.ulCards}>
+                {renderCards(comics)}
+            </ul>
+        </div>
     </main>
 }
 
