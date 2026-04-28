@@ -16,11 +16,13 @@ function renderCards(objList) {
             </div>
         </li>
     });
+
+    return myCardsList;
 }
 
 
 function Main() {
-    return <main className={"mx-auto"}>
+    return <main className={`mx-auto fluid ${style.container}`}>
         <div className={`d-flex ${style.row}`}>
             <ul className={style.ulCards}>
                 {renderCards(comics)}
