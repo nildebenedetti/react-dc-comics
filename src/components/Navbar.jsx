@@ -21,7 +21,7 @@ function renderCategories(categoryList) {
 
 function Navbar() {
     return <> <ul className={`d-flex ${style.ul}`}>
-        {renderCategories(categories)};
+        {renderCategories(categories)}
     </ul>
     </>
 };
