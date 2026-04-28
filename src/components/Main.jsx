@@ -26,7 +26,11 @@ function Main() {
             <ul className={`mx-auto ${style.row}`}>
                 {renderCards(comics)}
             </ul>
+            <div className="btn-wrapper">
+                <button className="btn-easy">LOAD MORE</button>
+            </div>
     </main>
 }
 
 export default Main;
+
