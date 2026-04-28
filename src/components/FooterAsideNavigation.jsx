@@ -1,6 +1,35 @@
 import style from './FooterAsideNavigation.module.css';
 
-function FooterAsideNavigation() {
+const BannerObjects = [
+    {
+        id: 1,
+        title: 'Digital Comics',
+        src: '/img/buy-comics-digital-comics.png'
+    },
+    {
+        id: 2,
+        title: 'DC Merchandise',
+        src: '/img/buy-comics-merchandise.png'
+    },
+    {
+        id: 3,
+        title: 'Subscription',
+        src: '/img/buy-comics-subscriptions.png'
+    },
+    {
+        id: 4,
+        title: 'Comic Shop Locator',
+        src: '/img/buy-comics-shop-locator.png'
+    },
+    {
+        id: 5,
+        title: 'DC Power Visa',
+        src: '/img/buy-dc-power-visa.svg'
+    }
+];
+
+
+{/* function FooterAsideNavigation() {
     return <div className={"footer-aside-container bg-blue fluid"}>
         <ul className={`d-flex ${style.asideList}`}>
             <li>
@@ -35,6 +64,6 @@ function FooterAsideNavigation() {
             </li>
         </ul>
     </div>
-}
+} */}
 
 export default FooterAsideNavigation;
