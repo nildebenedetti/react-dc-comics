@@ -52,13 +52,14 @@ body {
   font-weight: 600;
   position: relative;
   transform: translate(50%, 0);
-  top: -55px;
+  top: -33px;
   left: -512px;
 
 }
 
-.label-easy p{
-  font-size: 22px;;
+.label-easy p {
+  font-size: 22px;
+  ;
 }
 
 main {
@@ -69,6 +70,6 @@ main {
   width: 100%;
   height: 400px;
   background: url("/img/jumbotron.jpg");
-  background-repeat: no-repeat;    
+  background-repeat: no-repeat;
   background-position: top;
 }
