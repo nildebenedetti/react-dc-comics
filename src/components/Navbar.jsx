@@ -1,6 +1,19 @@
 import style from './Navbar.module.css'
 
-function Navbar() {
+const categories = [
+    'Characters',
+    'Comics',
+    'Movies',
+    'TV',
+    'Games',
+    'Collectibles',
+    'Videos',
+    'Fans',
+    'News',
+    'Shop'
+];
+
+{/* function Navbar() {
     return <> <ul className={`d-flex ${style.ul}`}>
         <li className={style.option}>
             Characters
@@ -34,6 +47,6 @@ function Navbar() {
         </li>
     </ul>
     </>
-}
+} */}
 
 export default Navbar
