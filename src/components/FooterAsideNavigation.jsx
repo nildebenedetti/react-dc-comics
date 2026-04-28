@@ -1,6 +1,6 @@
 import style from './FooterAsideNavigation.module.css';
 
-const BannerObjects = [
+const bannerObjects = [
     {
         id: 1,
         title: 'Digital Comics',
@@ -29,23 +29,33 @@ const BannerObjects = [
 ];
 
 
-{/* funzione p[er creare list element da oggetto */}
+{/* funzione p[er creare list element da oggetto */ }
 
 function renderListElements(ObjList) {
-    ObjList.map(ObjListElem => {
+    let myBannerElemList = ObjList.map(ObjListElem => {
         const { id, title, src } = ObjListElem;
 
         return <>  <li key={id}>
-                <div className={`d-flex ${style.asideComponent}`}>
-                    <img className={style.asideImg} src={src} alt={`${title} icon`}></img>
-                    <p>{ title.touppercase() }</p>
-                </div>
-            </li>
+            <div className={`d-flex ${style.asideComponent}`}>
+                <img className={style.asideImg} src={src} alt={`${title} icon`}></img>
+                <p>{title.toUpperCase()}</p>
+            </div>
+        </li>
         </>
     });
-    
+
+    return myBannerElemList;
+
 };
 
+function FooterAsideNavigation() {
+    return <> <div className={"footer-aside-container bg-blue fluid"}>
+        <ul className={`d-flex ${style.asideList}`}>
+            {renderListElements(bannerObjects)}
+        </ul>
+    </div>
+    </>
+}
 
 {/* function FooterAsideNavigation() {
     return <div className={"footer-aside-container bg-blue fluid"}>
