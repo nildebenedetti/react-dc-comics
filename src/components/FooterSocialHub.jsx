@@ -14,7 +14,7 @@ const socialElList = [
     {
         id: 3,
         title: 'Youtube',
-        src: '/img/footer-youtube.pn'
+        src: '/img/footer-youtube.png'
     },
     {
         id: 4,
@@ -27,6 +27,38 @@ const socialElList = [
         src: '/img/footer-periscope.png'
     }
 ];
+
+{/* funzione per creare list element */ }
+
+function renderElList(list) {
+
+    const mynewElement = list.map(listEl => {
+        const { id, title, src } = listEl;
+
+        return <li key={id}>
+            <div className={"single-logo-container"}>
+                <img src={src} alt={`${title} icon`}></img>
+            </div>
+        </li>
+    });
+
+    return mynewElement;
+}
+
+{/* component function */ }
+
+function FooterSocialHub() {
+    return <> <div className={`${style.followCta} d-flex`}>
+        <h3 className={style.cta}>FOLLOW US</h3>
+        <div className="d-flex">
+            <ul className={` ${style.socialIconsContainer} d-flex`}>
+            {renderElList(socialElList)}
+            </ul>
+        </div>
+    </div>
+    </>
+};
+
 
 {/* function FooterSocialHub() {
     return <>
@@ -66,4 +98,3 @@ const socialElList = [
 }*/}
 
 export default FooterSocialHub;
- 
