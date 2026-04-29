@@ -1,5 +1,6 @@
 import comics from '../data/comics.js';
 import style from './Main.module.css'
+import RenderCardComponent from './RenderCardComponent.jsx';
 
 {/* Aggiungo la funzione per fare render da dati oggetto*/ }
 
