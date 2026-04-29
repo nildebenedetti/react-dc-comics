@@ -1,13 +1,17 @@
 import comics from "../data/comics";
 
-function renderCardComponent({
+function RenderCardComponent({
     id = 0,
     series = 'Nome Serie',
-    thumb = 'https://imgs.search.brave.com/#'
+    thumb = 'https://url-img/#'
 }) {
-  return <div>
-        <h1></h1>
+  return (
+    <div className="card">
+        <img src={thumb} alt={series} />
+        <h3>{series}</h3>
+        <p>ID: {id}</p>
     </div>
+  )
   
 }
-export default renderCardComponent
+export default RenderCardComponent

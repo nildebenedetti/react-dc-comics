@@ -1,17 +1,21 @@
 import Header from "./components/Header.jsx"
 import Main from "./components/Main.jsx"
 import Footer from "./components/Footer.jsx"
-import renderCardComponent from "./components/renderCardComponent.jsx"
+import RenderCardComponent from "./components/RenderCardComponent.jsx"
 
 function App() {
 
-  return <> <div>
+  return (<div>
     <Header />
     <Main />
     <Footer />
-    <renderCardComponent/>
+    <RenderCardComponent
+      id={1}
+      series='Bimbo Gigi'
+      thumb='https://url-img/#'
+      />
     </div>
-  </>
+  )
 
 }
 
