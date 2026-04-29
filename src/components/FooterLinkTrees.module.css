@@ -1,7 +1,7 @@
 .footerLinkTreesContainer {
     background-image: url(/img/footer-bg.jpg);
     padding: 50px 100px;
-    height:330px;
+    min-height:330px;
 }
 
 .treeTitle {

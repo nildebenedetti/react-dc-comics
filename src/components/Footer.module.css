@@ -1,4 +1,6 @@
 .footer {
     justify-content: center;
     align-items: flex-start;
+    min-height: 100px;
+    width: 100%;
 }
