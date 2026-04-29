@@ -28,7 +28,6 @@ body {
   padding: 10px 40px;
   background-color: #0582F9;
   font-weight: 600;
-  position: absolute;
   transform: translate(50%, 0);
 }
 
@@ -60,10 +59,6 @@ body {
 .label-easy p {
   font-size: 22px;
   ;
-}
-
-main {
-  position: absolute;
 }
 
 .hero-banner {
