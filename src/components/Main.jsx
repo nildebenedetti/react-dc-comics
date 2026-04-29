@@ -1,7 +1,7 @@
 import comics from '../data/comics.js';
 import style from './Main.module.css'
 
-{/* Aggiungo la funzione per fare render da dati oggetto */}
+{/* Aggiungo la funzione per fare render da dati oggetto*/}
 
 function renderCards(objList) {
     let myCardsList = objList.map( objEl => {
