@@ -4,10 +4,10 @@ import FooterSocialNCTA from "./FooterSocialNCTA";
 import style from './Footer.module.css';
 
 function Footer() {
-    return <footer  className={`mx-auto d-flex flex-column ${style.footer}`}>
-        <FooterAsideNavigation/>
-        <FooterLinkTrees/>
-        <FooterSocialNCTA/>
+    return <footer className={`mx-auto d-flex flex-column ${style.footer}`}>
+        <FooterAsideNavigation />
+        <FooterLinkTrees />
+        <FooterSocialNCTA />
     </footer>
 }
 

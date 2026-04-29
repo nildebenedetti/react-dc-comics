@@ -35,13 +35,12 @@ function renderListElements(ObjList) {
     let myBannerElemList = ObjList.map(ObjListElem => {
         const { id, title, src } = ObjListElem;
 
-        return <>  <li key={id}>
+        return <li key={id}>
             <div className={`d-flex ${style.asideComponent}`}>
                 <img className={style.asideImg} src={src} alt={`${title} icon`}></img>
                 <p>{title.toUpperCase()}</p>
             </div>
         </li>
-        </>
     });
 
     return myBannerElemList;
