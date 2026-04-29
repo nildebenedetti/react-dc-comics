@@ -1,6 +1,6 @@
 import comics from '../data/comics.js';
 import style from './Main.module.css'
-import RenderCardComponent from './RenderCardComponent.jsx';
+import Card from './Card.jsx';
 
 {/* Aggiungo la funzione per fare render da dati oggetto
 
@@ -33,7 +33,7 @@ function Main() {
         </div>
         <ul className={`mx-auto ${style.row}`}>
             {comics.map( comic =>
-            <RenderCardComponent
+            <Card
                 key={comic.id}
                 id={comic.id}
                 series={comic.series}

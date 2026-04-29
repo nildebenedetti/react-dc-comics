@@ -1,6 +1,6 @@
 import comics from "../data/comics";
 
-function RenderCardComponent({
+function Card({
     id = 0,
     series = 'Nome Serie',
     thumb = 'https://url-img/#'
@@ -16,4 +16,4 @@ function RenderCardComponent({
         </li>
 }
 
-export default RenderCardComponent
+export default Card
