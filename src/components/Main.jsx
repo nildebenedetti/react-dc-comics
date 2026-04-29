@@ -21,18 +21,6 @@ function renderCards(objList) {
     return myCardsList;
 } */ }
 
-function extractCardInfo(array) {
-    let comic = comics.map(comic => {
-        const { id, thumb, series} = comic;
-        return {
-            id = id,
-            thumb = thumb,
-            series = series,
-        })
-    
-        return comic;
-}
-
 
 function Main() {
     return <main className={`mx-auto fluid ${style.container}`}>
@@ -44,7 +32,15 @@ function Main() {
             </div>
         </div>
         <ul className={`mx-auto ${style.row}`}>
-                <RenderCardComponent/>
+            {comics.map( comic =>
+            <RenderCardComponent
+                key={comic.id}
+                id={comic.id}
+                series={comic.series}
+                thumb={comic.thumb}
+            />
+            )}
+
         </ul>
         <div className="btn-wrapper">
             <button className="btn-easy">LOAD MORE</button>
