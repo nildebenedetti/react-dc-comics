@@ -6,19 +6,14 @@ function RenderCardComponent({
     thumb = 'https://url-img/#'
 }) {
 
-    let comic = comics.map(comic => {
-        const { id, thumb, series} = comic;
         return  <li key={id}>
-            <div className={style.imgContainer}>
-                <img className={style.img} src={thumb} alt={`cover of ${series}`}></img>
-                <p className={style.titlePar}>
+            <div >
+                <img  src={thumb} alt={`cover of ${series}`}></img>
+                <p>
                     {series.toUpperCase()}
                 </p>
             </div>
         </li>
-})
-
-return cards;
-
 }
+
 export default RenderCardComponent

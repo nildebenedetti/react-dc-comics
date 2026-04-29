@@ -44,10 +44,6 @@ function Main() {
             </div>
         </div>
         <ul className={`mx-auto ${style.row}`}>
-           {for ( const comic of comics) {
-            extra
-
-            }}
                 <RenderCardComponent/>
         </ul>
         <div className="btn-wrapper">
