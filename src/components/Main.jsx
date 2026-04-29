@@ -2,7 +2,7 @@ import comics from '../data/comics.js';
 import style from './Main.module.css'
 import RenderCardComponent from './RenderCardComponent.jsx';
 
-{/* Aggiungo la funzione per fare render da dati oggetto*/ }
+{/* Aggiungo la funzione per fare render da dati oggetto
 
 function renderCards(objList) {
     let myCardsList = objList.map(objEl => {
@@ -19,6 +19,18 @@ function renderCards(objList) {
     });
 
     return myCardsList;
+} */ }
+
+function extractCardInfo(array) {
+    let comic = comics.map(comic => {
+        const { id, thumb, series} = comic;
+        return {
+            id = id,
+            thumb = thumb,
+            series = series,
+        })
+    
+        return comic;
 }
 
 
@@ -32,7 +44,11 @@ function Main() {
             </div>
         </div>
         <ul className={`mx-auto ${style.row}`}>
-            {renderCards(comics)}
+           {for ( const comic of comics) {
+            extra
+
+            }}
+                <RenderCardComponent/>
         </ul>
         <div className="btn-wrapper">
             <button className="btn-easy">LOAD MORE</button>

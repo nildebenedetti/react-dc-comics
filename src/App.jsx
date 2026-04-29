@@ -9,11 +9,6 @@ function App() {
     <Header />
     <Main />
     <Footer />
-    <RenderCardComponent
-      id={1}
-      series='Bimbo Gigi'
-      thumb='https://url-img/#'
-      />
     </div>
   )
 
