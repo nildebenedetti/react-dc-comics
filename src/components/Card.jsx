@@ -7,7 +7,7 @@ function Card({
     thumb = 'https://url-img/#'
 }) {
 
-        return  <li key={id}>
+        return  <li>
             <div className={style.imgContainer}>
                 <img className={style.img} src={thumb} alt={`cover of ${series}`}></img>
                     <p className={style.titlePar}>
